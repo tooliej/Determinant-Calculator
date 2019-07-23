@@ -4,11 +4,8 @@ public class Determinant {
 
         //Builds a random matrix
         int[][] a = MatrixBuilder.random(3,3,4);
-
-
         MatrixBuilder.print(a);
         System.out.println();
-
         System.out.println("The determinant is: " + determinant(a));
     }
 
